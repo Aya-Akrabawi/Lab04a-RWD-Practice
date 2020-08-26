@@ -1,0 +1,136 @@
+.container {
+    display: grid;
+    grid-template-columns: 960px;
+    grid-template-rows: 100px 600px;
+    /* center the content horizontally  inside the cell */
+    justify-items:  center ;
+    /* center the content vertically inside the cell */
+    align-items: center;
+    /* center the whole container horizontally inside the cell */
+    justify-content: center;  
+} 
+#cd {
+            
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 0px;
+    justify-items:  center ;
+align-items: center;
+justify-content: center;
+}
+
+#efgh {
+    display: grid;
+grid-template-columns: auto auto auto auto;
+grid-column-gap: 0px;
+justify-items:  center ;
+align-items: center;
+justify-content: center;
+
+}
+#a {
+    display: block;
+height: 100px;
+width: 960px;
+justify-items:  center ;
+align-items: center;
+justify-content: center;
+}
+#b {
+    height: 600px;
+    width: 200px;
+    float: left;
+}
+
+
+
+#c , #d {
+    height: 200px;
+    width: 380px; 
+    
+  }
+
+  #e , #f , #g , #h  {
+    height: 250px;
+    width: 190px;
+  }
+
+#i{
+    display: grid;
+    height: 150px;
+    width: 760px;
+
+}
+
+@media (max-width:480px) {
+    .container {
+        display: grid;
+        grid-template-columns: 480px;
+        grid-template-rows: 75px 980px;
+        grid-column-gap: 0px;
+    }
+    #bcdefghi {
+        display: grid;
+        grid-template-columns: 480px;
+        grid-template-rows: 150px 250px 500px 80px ;
+        grid-column-gap: 0px;
+    }
+   
+    #cd {
+                
+        display: grid;
+        grid-template-columns: 480px ;
+        grid-template-rows: 125px;
+        grid-column-gap: 0px;
+        justify-items:  center ;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #efgh {
+        display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 250px 250px ;
+
+    grid-column-gap: 0px;
+    
+    
+    }
+    #a {
+        display: block;
+        height: 75px;
+        width: 480px;
+    
+    }
+    #b {
+        display: block;
+        height: 150px;
+        width: 480px;
+    }
+    
+    
+    
+    #c , #d {
+        display: block;
+        height: 125px;
+            width: 480px;  
+        
+      }
+    
+      #e , #f , #g , #h  {
+        height: 250px;
+            width: 240px;
+      }
+    
+    #i{
+        display: grid;
+        height: 80px;
+        width: 480px;
+    
+    }
+    
+
+
+}
+
+
